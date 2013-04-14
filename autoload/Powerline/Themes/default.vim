@@ -89,6 +89,12 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Split()
 	\ ),
 	\
+	\ Pl#Theme#Buffer('bufferlist'
+		\ , ['static_str.name', 'BUFFERLIST']
+		\ , Pl#Segment#Truncate()
+		\ , Pl#Segment#Split()
+	\ ),
+	\
 	\ Pl#Theme#Buffer('ctrlp', Pl#Theme#Callback('ctrlp_main', 'if ! exists("g:ctrlp_status_func") | let g:ctrlp_status_func = {} | endif | let g:ctrlp_status_func.main = "%s"')
 		\ , 'ctrlp:prev'
 		\ , 'ctrlp:item'
