@@ -89,8 +89,8 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 		\ , Pl#Segment#Split()
 	\ ),
 	\
-	\ Pl#Theme#Buffer('bufferlist'
-		\ , ['static_str.name', 'BUFFERLIST']
+	\ Pl#Theme#Buffer('next_bufferlist'
+		\ , ['static_str.name', 'NEXT_BUFFERLIST']
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
 	\ ),
